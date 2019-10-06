@@ -2042,16 +2042,14 @@ color:#ffda15;
 .main-banner-content-two h1 {
     animation-delay: 1s;
     margin: 0;
-    color: #FFFF00;
+    color: #FFF;
     font-weight: bold;
     font-size: 82px;
     line-height:80px;
     text-transform: uppercase;
     margin-top: 25px;
-    text-align:right;
     -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #D4AC0D;
+    -webkit-text-stroke-width: 1px;
 }
 
 .main-banner-content-two p {
@@ -12802,4 +12800,25 @@ color: #fff;
 color:blue;
 }
 
+/* EXTRAS */
+
+.news-block{
+    background: #333131;
+    padding: 15px;
+}
+.news-block h4{
+    color: #f9f9f3;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.news-block p{
+    color: #fea164;
+}
+
+.sticky-header ul.navigation {
+    background: white;
+}
+.logo a.img-responsive {
+    padding: 5px;
+}
 
