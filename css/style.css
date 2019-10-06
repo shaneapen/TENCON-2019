@@ -12834,7 +12834,7 @@ ul.dotted li:before {
 }
 
 .news-block{
-    background: #333131;
+    background: #81236a;
     padding: 15px;
 }
 .news-block h4{
@@ -12853,3 +12853,12 @@ ul.dotted li:before {
     padding: 5px;
 }
 
+section.intro-news {
+    border-top: 12px solid #81236a;
+}
+
+@media (min-width: 991px) { 
+    .mobile-header-left{
+        display: none!important;
+    }
+ }
