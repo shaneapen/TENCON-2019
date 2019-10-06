@@ -12802,6 +12802,37 @@ color:blue;
 
 /* EXTRAS */
 
+.title-with-top-bar:before {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    height: 2px;
+    width: 55px;
+    background-color: #f7c02d;
+    display: inline-block;
+    content: "";
+}
+
+ul.dotted li{
+    position: relative;
+    display: block;
+    font-size: 16px;
+    line-height: 26px;
+    color: #848484;
+    font-weight: 400;
+    padding-left: 24px;
+    margin-bottom: 18px;
+}
+ul.dotted li:before {
+    position: absolute;
+    left: 0;
+    top: 7px;
+    height: 7px;
+    width: 7px;
+    background-color: #f7c02d;
+    content: "";
+}
+
 .news-block{
     background: #333131;
     padding: 15px;
