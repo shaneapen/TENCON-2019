@@ -76,6 +76,7 @@ font-family: 'Ubuntu', sans-serif;
     outline: none;
 }
 
+
 /*** 
 
 ====================================================================
@@ -96,6 +97,10 @@ body {
     -webkit-font-smoothing: antialiased;
     /*font-family: 'Ubuntu', sans-serif;*/
      font-family: "Ubuntu", sans-serif;
+}
+html,body{
+    overflow-x: hidden;
+     max-width: 100%;
 }
 
 a {
@@ -12862,3 +12867,6 @@ section.intro-news {
         display: none!important;
     }
  }
+ section.intro-news .news-block {
+    margin-bottom: 0;
+}
