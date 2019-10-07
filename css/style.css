@@ -12872,6 +12872,11 @@ section.intro-news {
     margin-bottom: 0;
 }
 
+.intro-news .news-block a {
+    color: white;
+}
+ol.numbered li{
+    list-style-type: decimal;
 /*Program / Tutorial Page*/
 
 .tutorial{
