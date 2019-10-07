@@ -22,13 +22,24 @@
 
 <style>
 hr {
-  display: block;
+    border: #882244 solid 0.5px;
+
+  /* display: block;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   margin-left: auto;
   margin-right: auto;
   border-style: inset;
-  border-width: 5px;
+  border-width: 5px; */
+}
+.sponser-logo{
+    height: 150px;
+}
+.row>h3 {
+    color: #882244;
+    font-size: 1.6em;
+    font-family: 'Open-sans', sans-serif;
+    font-weight: 600; 
 }
 </style>
 
@@ -216,77 +227,104 @@ hr {
 
 
 <center>
-<table width="100%">
-<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
-<tr><td colspan="9" align="center"><font color="red"><b>TITLE SPONSOR</b></font></td></tr>
-<tr><td colspan="9" align="center"><img src="images/nissan.jpg" alt="Nissan" height="160px" ></td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
-</table>
 
-<hr>
-
-<table width="100%">
-<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
-<tr><td colspan="9" align="center"><font color="red"><b>GOLD SPONSOR</b></font></td></tr>
-<tr><td colspan="9" align="center"><img src="images/nest.jpg" alt="NeST" height="130px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="images/KSITM.png" alt="KSITM" height="160px"></td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
-</table>
-
-<hr>
-
-<table width="100%">
-<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
-<tr><td colspan="9" align="center"><font color="red"><b>SILVER SPONSORS</b></font></td></tr>
-<tr><td colspan="9" align="center"><img src="images/csl.jpg" alt="CSL" height="125px">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="images/tpl.jpg" height="30px">
-<img src="images/oracle.png" height="100px">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="images/IEEE.jpg" height="110px" >
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="images/InApp.png" height="110px" >
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="images/NI_logo.jpg" height="100px" >
-</td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
-
-</table>
-
-<hr>
-<table width="100%">
-<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
-<tr><td colspan="9" align="center"><font color="red"><b>BRONZE SPONSORS</b></font></td></tr>
-<tr><td colspan="9" align="center"><img src="images/mentor.png" alt="Mentor" height="55px">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/ust.png" height="80px" alt="UST Global" >
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/innovative-logo.jpg" height="80px" alt="Innovative" >
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/keysight-logo.png" height="80px" alt="Keysight" >
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/drdo.png" height="90px" alt="DRDO" >
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/TKMCE_Logo.png" height="100px" alt="TKMCE" >
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="images/icfoss.png" height="90px" alt="ICFOSS" >
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="images/KSUM-bronze.jpg" height="90px" alt="ICFOSS" >
-</td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
-</table>
-<hr>
-<table width="100%">
-<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
-<tr><td colspan="9" align="center"><font color="red"><b>SUPPORTERS</b></font></td></tr>
-<tr><td colspan="9" align="center"><img src="images/mworks.jpg" alt="MathWorks">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/ieee-sa.jpg" height="60px"  alt="IEEE Standards Association" >
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="images/cdt.jpg" height="80px"  alt="CDT - Cognitive Design Technology" >
-</td></tr>
-<tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td></tr>
-
-</table>
-
+ <div class="container">
+    <hr>
+    <br>
+    <div class="row">
+        <h3>TITLE SPONSOR</h3>
+        <div class="col">
+            <img class="sponser-logo" src="./images/nissan.jpg" alt="nissan">     
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="row">
+        <h3>GOLD SPONSOR</h3>
+        <div class="col-md-6" style="padding-top: 25px;">
+            <img class="sponser-logo" src="./images/nest.jpg" alt="nest" style="height: 100px;">
+        </div>
+        <div class="col-md-6" style="padding-top: 25px;">
+            <img class="sponser-logo" src="./images/KSITM.png" alt="KSITM" style="height: 100px;">
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="row">
+        <h3>SILVER SPONSERS</h3>
+        <div class="col-md-4" style="padding-top:45px;">
+            <img class="sponser-logo" src="./images/tpl.jpg" alt="tpl" style="height: 30px;">
+        </div>
+        <div class="col-md-4" style="padding-top:35px;">
+            <img class="sponser-logo" src="./images/csl.jpg" alt="CSL" style="height: 80px;">
+        </div>
+        <div class="col-md-4" style="padding-top:35px;">
+            <img class="sponser-logo" src="./images/oracle.png" alt="oracle" style="height: 80px;">
+        </div>
+    
+        <div class="col-md-4" style="padding-top:35px;">
+            <img class="sponser-logo" src="./images/InApp.png" alt="InApp" style="height: 80px;">
+        </div>
+        <div class="col-md-4" style="padding-top:35px;">
+                <img class="sponser-logo" src="./images/IEEE.jpg" alt="IEEE" style="height: 80px;">
+        </div>
+        <div class="col-md-4" style="padding-top:35px;">
+            <img class="sponser-logo" src="./images/NI_logo.jpg" alt="National Instruments" style="height: 80px;">
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="row">
+        <h3>BRONZE SPONSERS</h3>
+        <div class="col-md-3" style="padding-top:50px;">
+            <img class="sponser-logo" src="./images/mentor.png" alt="mentor" style="height: 50px;">
+        </div>
+        <div class="col-md-3" style="padding-top:50px;">
+            <img class="sponser-logo" src="./images/ust.png" alt="ust" style="height: 50px;">
+        </div>
+        <div class="col-md-3" style="padding-top:50px;">
+            <img class="sponser-logo" src="./images/innovative-logo.jpg" alt="i^3" style="height: 50px;">
+        </div>
+        <div class="col-md-3" style="padding-top:50px;">
+            <img class="sponser-logo" src="./images/keysight-logo.png" alt="keysight" style="height: 50px;">
+        </div>
+        <div class="col-md-3" style="padding-top:35px;">
+            <img class="sponser-logo" src="./images/drdo.png" alt="drdo" style="height: 80px;">
+        </div>
+        <div class="col-md-3" style="padding-top:35px;">
+            <img class="sponser-logo" src="./images/TKMCE_Logo.png" alt="tkmce" style="height: 80px;">
+        </div>
+        <div class="col-md-3" style="padding-top:50px;">
+            <img class="sponser-logo" src="./images/icfoss.png" alt="icfoss" style="height: 50px;">
+        </div>
+        <div class="col-md-3" style="padding-top:50px;">
+            <img class="sponser-logo" src="./images/KSUM-bronze.jpg" alt="KSUM" style="height: 50px;">
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <div class="row">
+        <h3>SUPPORTERS</h3>
+        <div class="col-md-4" style="padding-top:50px;">
+            <img class="sponser-logo" src="./images/mworks.jpg" alt="Mathworks" style="height: 50px;">
+        </div>
+        <div class="col-md-4" style="padding-top:50px;">
+            <img class="sponser-logo" src="./images/ieee-sa.jpg" alt="IEEE SA" style="height: 50px;">
+        </div>
+        <div class="col-md-4" style="padding-top:50px;">
+            <img class="sponser-logo" src="./images/cdt.jpg" alt="CDT" style="height: 50px;">
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <br>
+ </div>
 </center>
-
-<hr>
-<br>
-
 <!--
 <p align="center"><font style="font-size:20px; color:red; font-weight:bold;">DOWNLOAD: <a href="TENCON 2019_Sponsorship Brochure.pdf" class="rp_a">Sponsors & Exhibitors Sponsorship Brochure in PDF </a><img style="width:5%;" src="images/pdf.png" /></font></p>
 -->
