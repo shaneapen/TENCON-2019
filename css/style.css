@@ -39,6 +39,7 @@
 36. Cart Section style
 37. CheckOut Sectioon
 38. Request Qoute Section
+39. Program / Tutorial Page
 
 **********************************************/
 
@@ -12876,4 +12877,70 @@ section.intro-news {
 }
 ol.numbered li{
     list-style-type: decimal;
+/*Program / Tutorial Page*/
+
+.tutorial{
+    padding-top: 40px;
+}
+
+.tutorial .tutorial-block{
+    padding-top: 40px;
+    background: #f8f8f8;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    margin-top: 12px;
+}
+
+.tutorial .tutorial-block .tutorial-block-ls{
+    text-align: center;
+}
+
+.tutorial .tutorial-block .tutorial-block-ls h4{
+    text-transform: uppercase;
+}
+
+.tutorial .tutorial-block .tutorial-block-ls h2{
+    font-size: 4em;
+    font-weight: 400;
+}
+
+.tutorial .tutorial-block .tutorial-block-cs{
+    padding-right: 50px;
+    text-align: justify;
+}
+
+.tutorial .tutorial-block .tutorial-block-cs img{
+    margin-right: 10px;
+}
+
+.tutorial .tutorial-block .tutorial-block-description{
+    margin-top: 20px;
+    white-space: normal;
+    overflow: hidden;
+    height: 110px;
+}
+
+
+
+.show-more{
+    cursor: pointer;
+    text-decoration: underline;
+    margin-top: 12px;
+}
+
+.tutorial-block-speakers h4{
+    margin-left: 15px;
+}
+
+.tutorial-block-description .blockquote{
+    font-size: 0.8em;
+}
+
+.tutorial-block-speakers .speaker-name{
+    font-size: 1.2em;
+}
+
+.highlight{
+    font-weight: 600;
 }
