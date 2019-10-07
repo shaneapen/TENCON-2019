@@ -900,7 +900,7 @@
 
         //Initialize carousel
         $myCarousel.carousel({
-            interval: 2000
+            interval: 7000
         });
 
         //Animate captions in first slide on page load
