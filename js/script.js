@@ -943,10 +943,10 @@ $(document).ready(function(){
     $('.show-more').click(function(){
 
         if($(this).text() == 'Show More'){
-            $(this).siblings('.tutorial-block-description').animate({height: '100%'}, {queue: false, duration: 500});
+            $(this).siblings('.tutorial-block-description').animate({height: '100%'}, {queue: false, duration: 400});
             $(this).text('Show Less');
         }else{
-            $(this).siblings('.tutorial-block-description').animate({height: '110px'}, {queue: false, duration: 500});
+            $(this).siblings('.tutorial-block-description').animate({height: '110px'}, {queue: false, duration: 300});
             $(this).text('Show More');
         }
         

@@ -12880,7 +12880,7 @@ section.intro-news {
 
 .tutorial .tutorial-block{
     padding-top: 40px;
-    background: #f8f8f8;
+    background: #f3f3f3;
     padding-bottom: 40px;
     margin-bottom: 40px;
     border-radius: 10px;
@@ -12889,6 +12889,7 @@ section.intro-news {
 
 .tutorial .tutorial-block .tutorial-block-ls{
     text-align: center;
+    color: #fba25e;
 }
 
 .tutorial .tutorial-block .tutorial-block-ls h4{
@@ -12922,10 +12923,18 @@ section.intro-news {
     cursor: pointer;
     text-decoration: underline;
     margin-top: 12px;
+    color: #ffda15;
+    font-weight: 600;
+    transition: color 0.5s;
+}
+
+.show-more:hover{
+    color: #dfbf14;
 }
 
 .tutorial-block-speakers h4{
     margin-left: 15px;
+    color: #fba25e;
 }
 
 .tutorial-block-description .blockquote{
@@ -12938,4 +12947,13 @@ section.intro-news {
 
 .highlight{
     font-weight: 600;
+    color: #822468;
+}
+
+.tutorial-block-heading{
+    color: #822468;
+}
+
+.duration{
+    color: #dfbf14;
 }
