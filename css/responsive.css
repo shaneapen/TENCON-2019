@@ -1414,3 +1414,10 @@
 		margin-left: 0;
 	}
 }
+
+@media (max-width:600px)  { 
+	.main-banner-content-two h1{
+		font-size: 55px;
+		line-height: 60px;
+	}
+}
