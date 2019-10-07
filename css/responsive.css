@@ -534,7 +534,7 @@
 	}
 	
 	.main-menu .collapse {
-	   max-height:300px;
+	   max-height:470px;
 		overflow:auto;
 		float:none;
 		width:100%;
@@ -575,11 +575,11 @@
 		display:inline-block;
 		z-index:7;
 		top:-1px;
-		border:1px solid #ffb200;
+		/* border:1px solid #ffb200; */
 		float:none;
 		margin:0px 0px 0px 0px;
 		border-radius:0px;
-		background:#ffb200;
+		/* background:#ffb200; */
 	}
 	
 	.main-menu .navbar-header .navbar-toggle .icon-bar{
