@@ -12841,7 +12841,7 @@ ul.dotted li:before {
 }
 
 .news-block{
-    background: #81236a;
+    background: #f1f1f1;
     padding: 15px;
 }
 .news-block h4{
@@ -12861,7 +12861,8 @@ ul.dotted li:before {
 }
 
 section.intro-news {
-    border-top: 12px solid #81236a;
+    /* border-top: 12px solid #81236a; */
+    margin-top: 20px;
 }
 
 @media (min-width: 991px) { 
@@ -12874,7 +12875,7 @@ section.intro-news {
 }
 
 .intro-news .news-block a {
-    color: white;
+    color: #3e3a3a;
 }
 ol.numbered li{
     list-style-type: decimal;
