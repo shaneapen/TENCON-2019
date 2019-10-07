@@ -12964,3 +12964,19 @@ ol.numbered li{
 .duration{
     color: #dfbf14;
 }
+
+@media only screen and (max-width: 600px){
+    .tutorial .tutorial-block .tutorial-block-ls h2{
+        font-size: 2em;
+    }
+    .tutorial .tutorial-block .tutorial-block-cs{
+        padding: 20px;
+    }
+    .tutorial-block-heading h2{
+        font-size: 1.5em;
+        text-align: left;
+    }
+    .tutorial-block{
+        margin: 0 2px;
+    }
+}
