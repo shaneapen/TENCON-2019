@@ -12870,3 +12870,10 @@ section.intro-news {
  section.intro-news .news-block {
     margin-bottom: 0;
 }
+
+.intro-news .news-block a {
+    color: white;
+}
+ol.numbered li{
+    list-style-type: decimal;
+}
