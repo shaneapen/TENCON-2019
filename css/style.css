@@ -12896,7 +12896,7 @@ ol.numbered li{
 
 .tutorial .tutorial-block .tutorial-block-ls{
     text-align: center;
-    color: #fba25e;
+    color: #822468;
 }
 
 .tutorial .tutorial-block .tutorial-block-ls h4{
@@ -12930,7 +12930,7 @@ ol.numbered li{
     cursor: pointer;
     text-decoration: underline;
     margin-top: 12px;
-    color: #ffda15;
+    color: #000;
     font-weight: 600;
     transition: color 0.5s;
 }
@@ -12941,7 +12941,7 @@ ol.numbered li{
 
 .tutorial-block-speakers h4{
     margin-left: 15px;
-    color: #fba25e;
+    color: #777;
 }
 
 .tutorial-block-description .blockquote{
@@ -12958,11 +12958,15 @@ ol.numbered li{
 }
 
 .tutorial-block-heading{
+    text-align: left;
     color: #822468;
 }
 
 .duration{
-    color: #dfbf14;
+    color: #585855;
+}
+.tutorial-block-speakers .col-md-4 p {
+    text-align: left;
 }
 
 @media only screen and (max-width: 600px){
