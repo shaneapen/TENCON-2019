@@ -798,6 +798,7 @@ img {
 .main-header .nav-outer {
     position: relative;
     border-bottom: 1px solid rgba(255, 255, 255, .10);
+    display: flex;
 }
 
 .main-menu {
@@ -1364,7 +1365,8 @@ img {
 .main-header.style-three .nav-outer {
     /*background: #aec93d;*/
     border-bottom: 0;
-    padding-left: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 .main-header.style-three .main-menu .navigation>li>a {
