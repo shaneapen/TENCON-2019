@@ -1419,5 +1419,20 @@
 	.main-banner-content-two h1{
 		font-size: 55px;
 		line-height: 60px;
+	}	
+	.slide-3 img.mobile{
+		display: block!important;
+		height: 700px;
+		object-fit: contain;
+		margin: 0 auto;
 	}
 }
+@media (min-width:601px){
+	.slide-3 img.normal{
+		min-height: 700px;
+		object-fit: contain;
+		display: block!important;
+	}
+}
+
+
