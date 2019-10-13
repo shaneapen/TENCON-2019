@@ -3,19 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>TENCON 2019 | Industry Track </title><!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-39379599-10"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-39379599-10');
-  </script>
-
+  <title>TENCON 2019 | Industry Track </title>
   <!-- Stylesheets -->
   <link href="css/bootstrap.css" rel="stylesheet">
   <!--
@@ -31,26 +19,11 @@
       font-size: 15px;
       line-height: 195%;
     }
-
-    .itrack .why-us-tabs .tab-btn.active-btn {
-      color: #822468;
-      padding-right: 55px;
-      background: #deded9;
-      border-radius: 3px;
-    }
-
-    .itrack .why-us-tabs .tab-btn:before {
-      color: #822468
-    }
-
-    .itrack .why-us-tabs .tabs-content ul li:before {
-      color: #248246;
-    }
   </style>
 
   <!--Favicon-->
   <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" type="image/png" href="images/favicon-192x192.png" sizes="192x192" />
+  <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
 
   <!-- Responsive -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -121,17 +94,17 @@
                     <ul>
                       <li><a href="overview.html">Overview </a></li>
                       <li><a href="detailed_program.html">Detailed Program</a></li>
-                      <!-- <li><a href="special_sessions.html">Special Sessions</a></li> -->
-                      <li><a href="inaugural-program.html">Inaugural Program</a></li>
+                      <li><a href="special_sessions.html">Special Sessions</a></li>
+                      <li><a href="workshops.html">Workshops</a></li>
                       <li><a href="tutorial.html">Tutorials</a></li>
 
-                      <!--<li><a href="social.html">Social Program/Tour</a></li>-->
+                      <li><a href="social.html">Social Program/Tour</a></li>
 
                     </ul>
                   </li>
-                  <!-- <li><a href="special_sessions.html">Special Sessions</a></li> -->
+                  <li><a href="special_sessions.html">Special Sessions</a></li>
 
-                  <li class="current dropdown"><a href="#">Special Tracks</a>
+                  <li class="current dropdown"><a href="#">Tracks</a>
                     <ul>
                       <li><a href="itrack.html">Special Industrial Track (SIT)</a></li>
                       <li><a href="htrack.html">Humanitarian Activities Track</a></li>
@@ -172,8 +145,7 @@
 
               <div class="navbar-collapse collapse clearfix">
                 <ul class="navigation clearfix">
-                  <li><a href="index.html">Home</a></li>
-                  <!--##-->
+                  <!-- <li><a href="index.html">Home</a></li> -->
                   <li class="dropdown"><a href="about.html">About</a>
                     <ul>
                       <li><a href="sponsors.html">Sponsors & Exhibitors</a></li>
@@ -201,16 +173,16 @@
                     <ul>
                       <li><a href="overview.html">Overview </a></li>
                       <li><a href="detailed_program.html">Detailed Program</a></li>
-                      <!-- <li><a href="special_sessions.html">Special Sessions</a></li> -->
-                      <li><a href="inaugural-program.html">Inaugural Program</a></li>
+                      <li><a href="special_sessions.html">Special Sessions</a></li>
+                      <li><a href="workshops.html">Workshops</a></li>
                       <li><a href="tutorial.html">Tutorials</a></li>
 
-                      <!--<li><a href="social.html">Social Program/Tour</a></li>-->
+                      <li><a href="social.html">Social Program/Tour</a></li>
 
                     </ul>
                   </li>
-                  <!-- <li><a href="special_sessions.html">Special Sessions</a></li> -->
-                  <li class="current dropdown"><a href="#">Special Tracks</a>
+                  <li><a href="special_sessions.html">Special Sessions</a></li>
+                  <li class="current dropdown"><a href="#">Tracks</a>
                     <ul>
                       <li><a href="itrack.html">Special Industrial Track (SIT)</a></li>
                       <li><a href="htrack.html">Humanitarian Activities Track</a></li>
@@ -254,15 +226,15 @@
                 <div class="row clearfix">
                   <div class="column col-lg-4 col-md-12 col-sm-4 col-xs-12">
                     <ul class="tab-buttons">
-                      <li data-tab="#tab-1" class="tab-btn active-btn">IEEE Region 10</li>
-                      <li data-tab="#tab-2" class="tab-btn">IEEE Kerala Section</li>
+                      <li data-tab="#tab-1" class="tab-btn">IEEE Region 10</li>
+                      <li data-tab="#tab-2" class="tab-btn active-btn">IEEE Kerala Section</li>
                       <li data-tab="#tab-3" class="tab-btn">Who should attend?</li>
                     </ul>
                   </div>
                   <div class="column col-lg-8 col-md-12 col-sm-8 col-xs-12">
                     <div class="tabs-content">
                       <!--Tab / Active Tab-->
-                      <div class="tab" id="tab-1" style="display: block;">
+                      <div class="tab" id="tab-1" style="display: none;">
                         <ul>
                           <li><b>Chris GwoGiun Lee</b>, <i>National Cheng Kung
                               University, Taiwan</i> <a class="url"
@@ -277,7 +249,7 @@
                       </div>
 
                       <!--Tab-->
-                      <div class="tab active-tab" id="tab-2" style="display: none;">
+                      <div class="tab active-tab" id="tab-2" style="display: block;">
                         <ul>
                           <li><b>Amarnath Raja</b>, <i>Past Chair, Kerala
                               Section,</i> <a class="url" href="mailto:a.raja@ieee.org">(a.raja@ieee.org)</a></li>
@@ -336,302 +308,386 @@
 
         <div class="row">
           <div class="col-md-10">
-            <table class="table" cellspacing="2" cellpadding="2" width="95%">
+            <style>
+              .justify {
+                text-align: justify;
+                font-size: 15px;
+                line-height: 195%;
+              }
+
+              .itrack .why-us-tabs .tab-btn.active-btn {
+                color: #822468;
+                padding-right: 55px;
+                background: #deded9;
+                border-radius: 3px;
+              }
+
+              .itrack .why-us-tabs .tab-btn:before {
+                color: #822468;
+              }
+
+              .itrack .why-us-tabs .tabs-content ul li:before {
+                color: #248246;
+              }
+
+              table {
+                width: 100%;
+                border-collapse: collapse;
+              }
+
+              th {
+                background: #822468;
+              }
+
+              th,
+              td {
+                border: 1px solid #a7a6a5;
+                padding: 10px;
+                text-align: left;
+              }
+
+              th {
+                color: white;
+              }
+
+              tr:nth-child(even) {
+                background-color: #eee;
+              }
+
+              tr:nth-child(odd) {
+                background-color: #fff;
+              }
+              .schedule td:nth-child(1){
+                background: #822468;
+                border:1px solid #986088;
+                color: white;
+              }
+
+            </style>
+
+            <table class="schedule">
               <tr>
-                <td width="16%" bgcolor="#ffaa5f"><b>Session</b></td>
-                <td width="79%" bgcolor="#ffdf7a">Keynote Session </td>
+                <td><b>Date / Time</b></td>
+                <td colspan="2"><b>Saturday – October 19, 2019 / 08:30 - 18:00 hrs </b></td>
               </tr>
               <tr>
-                <td bgcolor="#ffaa5f"><b>Date / Time</b></td>
-                <td bgcolor="#ffdf7a">Saturday &#8211; October 19, 2019 / 08:30 to 09:30 hrs </td>
+                <td><b>Room</b></td>
+                <td colspan="2"><b>Grand Ballroom 2</b></td>
               </tr>
+
               <tr>
-                <td bgcolor="#ffaa5f"><b>Room</b></td>
-                <td bgcolor="#ffdf7a">Grand Ballroom 2</td>
+                <td colspan="3" style="text-align: center;"><b>KEYNOTE SESSION </b></td>
               </tr>
+
               <tr>
-                <td bgcolor="#ffaa5f"><b>Chair</b></td>
-                <td bgcolor="#ffdf7a"><a class="url" href="chrislee.html" target="_blank">Dr. Chris Gwo Giun Lee,
+                <td><b>Chair</b></td>
+                <td colspan="2"><a class="url" href="chrislee.html" target="_blank">Dr. Chris Gwo Giun Lee,
                     <i>Professor, Cheng Kung Univ, R. O. C.</i></a></td>
               </tr>
-            </table>
 
-            <table class="table" cellspacing="2" cellpadding="2" width="95%">
+
+
               <tr>
-                <td width="16%" bgcolor="#FFFFFF"><b>Keynote 1</b></td>
-                <td width="16%" bgcolor="#FFFFFF"><b>08:30 to 09:00</b></td>
-                <td width="79%" bgcolor="#FFFFFF"><b>Intelligent System Design</b><br><a class="url"
-                    href="jaswinder.html" target="_blank">Mr. Jaswinder Ahuja, <i>Cadence, India</i></a></td>
+                <td><b>Keynote 1</b></td>
+                <td>
+                  <p class="time">08:30 - 09:00</p>
+                </td>
+                <td><b>Intelligent System Design</b><br><a class="url" href="jaswinder.html" target="_blank">Mr.
+                    Jaswinder Ahuja, <i>Cadence, India</i></a></td>
               </tr>
               <tr>
-                <td width="16%" bgcolor="#FFFFFF"><b>Keynote 2</b></td>
-                <td width="16%" bgcolor="#FFFFFF"><b>09:00 to 09:30</b></td>
-                <td width="79%" bgcolor="#FFFFFF"><a class="url" href="pingali.html" target="_blank">Mr. Gopal Pingali,
+                <td><b>Keynote 2</b></td>
+                <td>
+                  <p class="time">09:00 - 09:30</p>
+                </td>
+                <td><a class="url" href="pingali.html" target="_blank">Mr. Gopal Pingali,
                     <i>VP IBM India</i></a></td>
               </tr>
-            </table>
-            <table class="table" cellspacing="2" cellpadding="2" width="95%">
+              <!--Empty row START-->
               <tr>
-                <td width="16%" bgcolor="#ffaa5f"><b>Session </b></td>
-                <td width="79%" bgcolor="#ffdf7a">1</td>
+                <td style="border: none;background: white;"></td>
+              </tr>
+
+              <tr>
+                <td><b>Session </b></td>
+                <td colspan="2">1</td>
               </tr>
               <tr>
-                <td bgcolor="#ffaa5f"><b>Date / Time</b></td>
-                <td bgcolor="#ffdf7a">Saturday &#8211; October 19, 2019 / 09:30 to 10:30 hrs </td>
+                <td><b>Date / Time</b></td>
+                <td colspan="2">Saturday – October 19, 2019 / 09:30 - 10:30 hrs </td>
               </tr>
-             
+
               <tr>
-                <td bgcolor="#ffaa5f"><b>Chair</b></td>
-                <td bgcolor="#ffdf7a">Dr. Nirmal Nair, <i>Associate Professor, University of Auckland</i></a></td>
+                <td><b>Chair</b></td>
+                <td colspan="2">Dr. Nirmal Nair, <i>Associate Professor, University of Auckland</i></td>
               </tr>
-            </table>
-            <table class="table" cellspacing="2" cellpadding="2" width="95%">
+
+
               <tr>
-                <td width="16%" bgcolor="#FFFFFF"><b></b></td>
-                <td width="16%" bgcolor="#FFFFFF"><b>Speaker 1</b></td>
-                <td width="79%" bgcolor="#FFFFFF"><a class="url" href="amit.html" target="_blank">Dr. Amit Kumar, <i>CEO
+                <td><b>Speakers</b></td>
+
+                <td colspan="2"><a class="url" href="amit.html" target="_blank">Dr. Amit Kumar, <i>CEO
                       BioAxis, Hyderabad, India</i></a></td>
               </tr>
 
               <tr>
-                <td width="16%" bgcolor="#FFFFFF"></td>
-                <td width="16%" bgcolor="#FFFFFF"><b>Speaker 2</b></td>
-                <td width="79%" bgcolor="#FFFFFF"><a class="url" href="kush.html">Dr. Kush Agarwal, <i>CEO Wave Scan,
+                <td></td>
+
+                <td colspan="2"><a class="url" href="kush.html">Dr. Kush Agarwal, <i>CEO Wave Scan,
                       Singapore</i></a></td>
               </tr>
               <tr>
-                <td width="16%" bgcolor="#FFFFFF"></td>
-                <td width="16%" bgcolor="#FFFFFF"><b>Speaker 3</b></td>
-                <td width="79%" bgcolor="#FFFFFF">Mr. Bigyan Shreshta, <i>CEO, UTKHP. Nepal</i></a></td>
+                <td></td>
+
+                <td colspan="2">Mr. Bigyan Shreshta, <i>CEO, UTKHP. Nepal</i></td>
               </tr>
 
               <!--   <tr>
-           <td width="16%" bgcolor="#FFFFFF">TBA</td><td width="16%" bgcolor="#FFFFFF"><b>09:45 to 10:30</b></td>
-           <td width="79%" bgcolor="#FFFFFF">Entrepreneurship and Startups</td>
-         </tr> -->
+                   <td>TBA</td><td><b>09:45 to 10:30</b></td>
+                   <td>Entrepreneurship and Startups</td>
+                 </tr> -->
 
               <tr>
-                <td width="16%" bgcolor="#f3f3f3"></td>
-                <td width="16%" bgcolor="#f3f3f3"><b>10:30 to 11:00</b></td>
-                <td width="79%" bgcolor="#f3f3f3"><a class="url" href="#">Tea/Coffee Break</a></td>
+                <td></td>
+                <td>
+                  <p class="time">10:30 - 11:00</p>
+                </td>
+                <td> &#9749;&nbsp;Tea/Coffee Break</td>
               </tr>
 
               <tr>
-                <td width="16%" bgcolor="#ffa500">Sessions</td>
-                <td width="16%" bgcolor="#ffa500"><b>11:00 to 12:30</b></td>
-                <td width="79%" bgcolor="#ffa500"><a class="url" href="#">Conference wide Plenary Sessions</a></td>
+                <td><b>Sessions</b></td>
+                <td>
+                  <p class="time">11:00 - 12:30</p>
+                </td>
+                <td><a class="url" href="#">Conference wide Plenary Sessions</a></td>
               </tr>
 
 
               <tr>
-                <td width="16%" bgcolor="#F6CEF5">Plenary I</td>
-                <td width="16%" bgcolor="#F6CEF5"><b>11:00 to 11:45</b></td>
-                <td width="79%" bgcolor="#F6CEF5">Prof. Jong-Hwan Kim, <i>KT Endowed Chair Professor, KAIST Korea</i>
+                <td><b>Plenary I</b></td>
+                <td>
+                  <p class="time">11:00 - 11:45</p>
+                </td>
+                <td>Prof. Jong-Hwan Kim, <i>KT Endowed Chair Professor, KAIST Korea</i>
                 </td>
               </tr>
 
               <tr>
-                <td width="16%" bgcolor="#F6CEF5">Plenary II</td>
-                <td width="16%" bgcolor="#F6CEF5"><b>11:45 to 12:30</b></td>
-                <td width="79%" bgcolor="#F6CEF5">Nissan Digital ( TBD )</td>
+                <td><b>Plenary II</b></td>
+                <td>
+                  <p class="time">11:45 - 12:30</p>
+                </td>
+                <td>Nissan Digital ( TBD )</td>
               </tr>
 
               <tr>
-                <td width="16%" bgcolor="#f3f3f3"></td>
-                <td width="16%" bgcolor="#f3f3f3"><b>12:30 to 14:00</b></td>
-                <td width="79%" bgcolor="#f3f3f3">Lunch Break and Networking</td>
-              </tr>
-            </table>
+                <td></td>
+                <td>
+                  <p class="time">12:30 - 14:00</p>
+                </td>
+                <td>&#127860;&nbsp;Lunch Break and Networking</td>
 
-            <table class="table" cellspacing="2" cellpadding="2" width="95%">
-              <tr>
-                <td width="16%" bgcolor="#ffaa5f"><b>Session:2</b></td>
-                <td width="79%" bgcolor="#ffdf7a">e-Mobility</td>
               </tr>
-              <tr>
-                <td bgcolor="#ffaa5f"><b>Date / Time</b></td>
-                <td bgcolor="#ffdf7a">Saturday &#8211; October 19, 2019 / 14:00 to 15:45 hrs </td>
-              </tr>
-             
-              <tr>
-                <td bgcolor="#ffaa5f"><b>Chair</b></td>
-                <td bgcolor="#ffdf7a">Harish, Mysore</td>
-              </tr>
-            </table>
 
-            <table class="table" cellspacing="2" cellpadding="2" width="95%">
+              <!--Empty row START-->
               <tr>
-                <td width="16%" bgcolor="#FFFFFF"><b>Keynote</b></td>
-                <td width="16%" bgcolor="#FFFFFF"><b>14:00 to 14:35</b></td>
-                <td width="79%" bgcolor="#FFFFFF"><a class="url" href="allabaksh.html" target="_blank">Mr. Allabaksh
+                <td style="border: none;background: white;"></td>
+              </tr>
+
+              <tr>
+                <td><b>Session: 2</b></td>
+                <td colspan="2">e-Mobility</td>
+              </tr>
+              <tr>
+                <td><b>Date / Time</b></td>
+                <td colspan="2">Saturday – October 19, 2019 / 14:00 - 15:45 hrs </td>
+              </tr>
+
+              <tr>
+                <td><b>Chair</b></td>
+                <td colspan="2">Harish, Mysore</td>
+              </tr>
+
+
+
+              <tr>
+                <td><b>Keynote</b></td>
+                <td>
+                  <p class="time">14:00 - 14:35</p>
+                </td>
+                <td><a class="url" href="allabaksh.html" target="_blank">Mr. Allabaksh
                     Naikodi, <i>Mahindra Electric</i></a></td>
               </tr>
 
               <tr>
-                <td width="16%" bgcolor="#FFFFFF"><b>Speakers</b></td>
-                <td width="16%" bgcolor="#FFFFFF"><b>14:35 to 15:10</b></td>
-                <td width="79%" bgcolor="#FFFFFF"><a class="url" href="ananth.html" target="_blank">Dr. Ananth Krishna,
+                <td><b>Speakers</b></td>
+                <td>
+                  <p class="time">14:35 - 15:10</p>
+                </td>
+                <td><a class="url" href="ananth.html" target="_blank">Dr. Ananth Krishna,
                     <i>CEO, iAMPS</i></a></td>
               </tr>
 
               <tr>
-                <td width="16%" bgcolor="#FFFFFF"></td>
-                <td width="16%" bgcolor="#FFFFFF"><b>15:10 to 15:45</b></td>
-                <td width="79%" bgcolor="#FFFFFF"><a class="url" href="mustafa.html" target="_blank">Mr. Mustafa Wajid,
+                <td></td>
+                <td>
+                  <p class="time">15:10 - 15:45</p>
+                </td>
+                <td><a class="url" href="mustafa.html" target="_blank">Mr. Mustafa Wajid,
                     <i>Meher Group</i></a></td>
               </tr>
 
               <tr>
-                <td width="16%" bgcolor="#f3f3f3"></td>
-                <td width="16%" bgcolor="#f3f3f3"><b>15:45 to 16:00</b></td>
-                <td width="79%" bgcolor="#f3f3f3"><a class="url" href="#">Tea/Coffee Break</a></td>
+                <td></td>
+                <td>
+                  <p class="time">15:45 - 16:00</p>
+                </td>
+                <td>&#9749;&nbsp;Tea/Coffee Break</td>
               </tr>
 
               <!--   <tr>
-           <td width="16%" bgcolor="#F6CEF5"><b>TBD</b></td><td width="16%" bgcolor="#F6CEF5"><b>17:15 to 18:00</b></td>
-           <td width="79%" bgcolor="#F6CEF5"><a class="url" href="#"><b>Women in Industry and Startups</b></a><br></td>
-         </tr> -->
+                   <td><b>TBD</b></td><td><b>17:15 to 18:00</b></td>
+                   <td><a class="url" href="#"><b>Women in Industry and Startups</b></a><br></td>
+                 </tr> -->
 
-            </table>
 
-            <table class="table" cellspacing="2" cellpadding="2" width="95%">
+              <!--Empty row START-->
               <tr>
-                <td width="16%" bgcolor="#ffaa5f"><b>Session: 3</b></td>
-                <td width="79%" bgcolor="#ffdf7a"><a class="url" href="nissan.html" target="_blank">Cyber Security,
+                <td style="border: none;background: white;"></td>
+              </tr>
+
+              <tr>
+                <td><b>Session: 3</b></td>
+                <td colspan="2"><a class="url" href="nissan.html" target="_blank">Cyber Security,
                     (Managed by Nissan Digital)</a></td>
               </tr>
               <tr>
-                <td bgcolor="#ffaa5f"><b>Date / Time</b></td>
-                <td bgcolor="#ffdf7a">Saturday &#8211; October 19, 2019 / 16:00 to 17:00 hrs </td>
+                <td><b>Date / Time</b></td>
+                <td colspan="2">Saturday – October 19, 2019 / 16:00 - 17:00 hrs </td>
               </tr>
-            
-             
-            </table>
 
-            <table class="table" cellspacing="2" cellpadding="2" width="95%">
               <tr>
-                <td width="16%" bgcolor="#FFFFFF"><b>Moderator</b></td>
-                <td width="16%" bgcolor="#FFFFFF"><b></b></td>
-                <td width="79%" bgcolor="#FFFFFF">Tarun Kumar, <i>Chief Information Security Officer, Nissan Digital
+                <td><b>Moderator</b></td>
+
+                <td colspan="2">Tarun Kumar, <i>Chief Information Security Officer, Nissan Digital
                     India.</i></td>
               </tr>
               <tr>
-                <td width="16%" bgcolor="#FFFFFF"><b>Speakers</b></td>
-                <td width="16%" bgcolor="#FFFFFF"><b></b></td>
-                <td width="79%" bgcolor="#FFFFFF">Atul Gupta, <i>Leader – IT Advisory (Risk Consulting) and Cyber
+                <td><b>Speakers</b></td>
+                <td colspan="2">Atul Gupta, <i>Leader – IT Advisory (Risk Consulting) and Cyber
                     Security, KPMG</i></td>
               </tr>
 
 
               <tr>
-                <td width="16%" bgcolor="#FFFFFF"></td>
-                <td width="16%" bgcolor="#FFFFFF"><b></b></td>
-                <td width="79%" bgcolor="#FFFFFF">Rohit Anand, <i>Director &amp; Partner, Tanisi IT Services P Ltd</i>
+                <td></td>
+                <td colspan="2">Rohit Anand, <i>Director &amp; Partner, Tanisi IT Services P Ltd</i>
                 </td>
               </tr>
               <tr>
-                <td width="16%" bgcolor="#FFFFFF"></td>
-                <td width="16%" bgcolor="#FFFFFF"><b></b></td>
-                <td width="79%" bgcolor="#FFFFFF">Vikas Kapoor, <i>VP, Cyber Security, Vodafone Shared Services</i></td>
+                <td></td>
+                <td colspan="2">Vikas Kapoor, <i>VP, Cyber Security, Vodafone Shared Services</i></td>
               </tr>
               <tr>
-                <td width="16%" bgcolor="#FFFFFF"></td>
-                <td width="16%" bgcolor="#FFFFFF"><b></b></td>
-                <td width="79%" bgcolor="#FFFFFF">Lince Lawrance, <i>Director, Cyber Security Advisory, Ernst &amp;
+                <td></td>
+                <td colspan="2">Lince Lawrance, <i>Director, Cyber Security Advisory, Ernst &amp;
                     Young (EY) GDS</i></td>
               </tr>
+
+
+              <tr>
+                <td></td>
+                <td>
+                  <p class="time">16:00 - 16:30</p>
+                </td>
+                <td><b>Keynote on Cyber Security </b><br><a class="url" href="#"></a></td>
+              </tr>
+
+              <tr>
+                <td><b></b></td>
+                <td>
+                  <p class="time">16:30 - 17:00</p>
+                </td>
+                <td><b>Panel on Cyber Security</b></td>
+              </tr>
+
+              <!--Empty row START-->
+              <tr>
+                <td style="border: none;background: white;"></td>
+              </tr>
+              <tr>
+                <td><b>Session:</b></td>
+                <td colspan="2">Panel on Industry and Startups</td>
+              </tr>
+              <tr>
+                <td><b>Date / Time</b></td>
+                <td colspan="2">Saturday – October 19, 2019 / 17:00 - 18:00 hrs </td>
+              </tr>
+
+              <tr>
+                <td><b>Moderator</b></td>
+                <td colspan="2">Sarada Jayakrishnan, <i>DGM Terumo Penpol</i></td>
+              </tr>
+
+              <tr>
+                <td><b>Speakers:</b></td>
+                <td colspan="2"><b><a class="url" href="jijo.html" target="_blank">Jijo G John,<b><i>
+                          CEO Calpine Group, Infopark Kochi</i></b></a><b><br></b></b></td>
+              </tr>
+              <tr>
+                <td></td>
+
+                <td colspan="2"><b>Dr. Kush Agarwal,<b><i> CEO WaveSpan, SIngapore</i><br></b></b></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td colspan="2"><b>Shalini James, <b><i>CEO MANTRA</i><br></b></b></td>
+              </tr>
+
+
+
             </table>
-            <table class="table" cellspacing="2" cellpadding="2" width="95%">
-              <tr>
-                <td width="16%" bgcolor="#F6CEF5"></td>
-                <td width="16%" bgcolor="#F6CEF5"><b>16:00 to 16:30</b></td>
-                <td width="79%" bgcolor="#F6CEF5"><b>Keynote on Cyber Security </b><br><a class="url" href="#"></a></td>
-              </tr>
 
-              <tr>
-                <td width="16%" bgcolor="#F6CEF5"><b></b></td>
-                <td width="16%" bgcolor="#F6CEF5"><b>16:30 to 17:00</b></td>
-                <td width="79%" bgcolor="#F6CEF5"><a class="url" href="#"><b>Panel on Cyber Security</b></a><br></td>
-              </tr>
-            </table>
-            <table class="table" cellspacing="2" cellpadding="2" width="95%">
-              <tr>
-                <td width="16%" bgcolor="#ffaa5f"><b>Session:</b></td>
-                <td width="79%" bgcolor="#ffdf7a">Panel on Industry and Startups</td>
-              </tr>
-              <tr>
-                <td bgcolor="#ffaa5f"><b>Date / Time</b></td>
-                <td bgcolor="#ffdf7a">Saturday &#8211; October 19, 2019 / 17:00 to 18:00 hrs </td>
-              </tr>
-           
-              <tr>
-                <td bgcolor="#ffaa5f"><b>Moderator</b></td>
-                <td bgcolor="#ffdf7a">Sarada Jayakrishnan, <i>DGM Terumo Penpol</i></td>
-              </tr>
-              <tr>
-                <td bgcolor="#ffaa5f"><b>Chair</b></td>
-                <td bgcolor="#ffdf7a">TBA</td>
-              </tr>
-            </table>
-            <table class="table" cellspacing="2" cellpadding="2" width="95%">
-
-
-
-              <tr>
-                <td width="16%" bgcolor="#F6CEF5"><b>Speakers:</b></td>
-                <td width="16%" bgcolor="#F6CEF5"><b></b></td>
-                <td width="79%" bgcolor="#F6CEF5"><b><a class="url" href="jijo.html" target="_blank">Jijo G John,<b><i>
-                          CEO Calpine Group, Infopark Kochi</i></a></a><br></td>
-              </tr>
-              <tr>
-                <td width="16%" bgcolor="#F6CEF5"><b>Speakers:</b></td>
-                <td width="16%" bgcolor="#F6CEF5"><b></b></td>
-                <td width="79%" bgcolor="#F6CEF5"><b>Dr. Kush Agarwal,<b><i> CEO WaveSpan, SIngapore</i></a><br></td>
-              </tr>
-              <tr>
-                <td width="16%" bgcolor="#F6CEF5"></td>
-                <td width="16%" bgcolor="#F6CEF5"><b></b></td>
-                <td width="79%" bgcolor="#F6CEF5"><b>Shalini James, <b><i>CEO MANTRA</i></a><br></td>
-              </tr>
-
-            </table>
           </div>
         </div><br>
         <hr>
         <div class="row">
           <div class="col-md-10">
             <h3>Industry Track Registration Fee for Individuals and Companies</h3><br>
-            <table border="2" width="100%" cellspacing="2">
+            <table width="100%" cellspacing="2">
               <tr>
-                <td bgcolor="#F6CEF5"><b>Category</b></td>
-                <td colspan="2" bgcolor="#F6CEF5"><b>Indian(INR)</b></td>
-                <td colspan="2" bgcolor="#F6CEF5"><b>Foreign(USD)</b></td>
+                <th><b>Category</b></th>
+                <th><b>Indian(INR)</b></th>
+                <th><b>Foreign(USD)</b></th>
               </tr>
 
-              <tr bgcolor="#fde8fb">
-                <td><b>Individual- Student/Professional</b></td>
+              <tr>
+                <td>
+                  <p class="time">Individual - Student/Professional</p>
+                </td>
                 <td>5000</td>
-                <td></td>
                 <td>100</td>
               </tr>
 
-              <tr bgcolor="#fde8fb">
-                <td><b>Individual- Student/Professional IEEE Member</b></td>
+              <tr>
+                <td>
+                  <p class="time">Individual - Student/Professional IEEE Member</p>
+                </td>
                 <td>4000</td>
-                <td></td>
                 <td>75</td>
               </tr>
 
-              <tr bgcolor="#fde8fb">
-                <td><b>Start-up/MSME</b></td>
+              <tr>
+                <td>
+                  <p class="time">Start - up/MSME</p>
+                </td>
                 <td>17500</td>
-                <td></td>
                 <td>250</td>
               </tr>
-              <tr bgcolor="#fde8fb">
+              <tr>
                 <td><b>Other industries</b></td>
                 <td>35000</td>
-                <td></td>
                 <td>750</td>
               </tr>
             </table><br>
@@ -664,10 +720,7 @@
           <div class="row">
             <div class="col-md-4 col-sm-4 col-xs-12 text-left">
               <i>Powered by</i>:
-              <a class="expert-link" href="https://cecieee.org/devcom-walk-through/" target="_blank">Devcom
-                CEC</a>&nbsp;&&nbsp;
-              <a href="http://www.rpsonline.com.sg" target="_blank" class="expert-link"
-                style="font-weight: initial;">Research
+              <a href="http://www.rpsonline.com.sg" class="expert-link" style="font-weight: initial;">Research
                 Publishing Services</a>
             </div><!-- /.col-md-4 -->
 
