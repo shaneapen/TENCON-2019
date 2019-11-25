@@ -40,6 +40,7 @@
 37. CheckOut Sectioon
 38. Request Qoute Section
 39. Program / Tutorial Page
+40. gallery Page
 
 **********************************************/
 
@@ -96,11 +97,13 @@ body {
     background-position: center top;
     -webkit-font-smoothing: antialiased;
     /*font-family: 'Ubuntu', sans-serif;*/
-     font-family: "Ubuntu", sans-serif;
+    font-family: "Ubuntu", sans-serif;
 }
-html,body{
+
+html,
+body {
     overflow-x: hidden;
-     max-width: 100%;
+    max-width: 100%;
 }
 
 a {
@@ -146,6 +149,29 @@ p {
     line-height: 1.8em;
     margin: 0;
 }
+
+
+.main-gallery {
+    margin: 60px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-gallery img
+{
+    width:300px;
+    padding:10px;
+    transition:1s;
+}
+
+.main-gallery img:hover
+{
+  transform:scale(1.1);   
+}
+
+
+
 
 .text-center {
     text-align: center !important;
@@ -1373,10 +1399,11 @@ img {
     padding: 15.5px 0;
     text-transform: uppercase;
     font-size: 13px;
-    
+
 }
-.current{
-color:#ffda15;
+
+.current {
+    color: #ffda15;
 }
 
 .main-header.style-three .nav-outer .dropdown-outer {
@@ -1536,7 +1563,7 @@ color:#ffda15;
 .main-header.style-three .social a:hover {
     color: #ffda15;
 
-    
+
 }
 
 .main-header.style-three #polyglotLanguageSwitcher {
@@ -1724,7 +1751,7 @@ color:#ffda15;
 .main-header .sticky-header .main-menu .navigation>li:hover>a,
 .main-header .sticky-header .main-menu .navigation>li.current>a,
 .main-header .sticky-header .main-menu .navigation>li.current-menu-item>a {
-        color: #b91da1;
+    color: #b91da1;
     opacity: 1;
 }
 
@@ -2052,10 +2079,11 @@ color:#ffda15;
     color: #FFF;
     font-weight: bold;
     font-size: 82px;
-    line-height:80px;
+    line-height: 80px;
     text-transform: uppercase;
     margin-top: 25px;
-    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-fill-color: white;
+    /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1px;
 }
 
@@ -3057,7 +3085,7 @@ color:#ffda15;
     position: relative;
     padding: 0px 0 0px;
     margin-bottom: 40px;
-/*    border-top: 1px solid #f2f2f2;*/
+    /*    border-top: 1px solid #f2f2f2;*/
 }
 
 .feature-info-block .image-column,
@@ -9427,7 +9455,7 @@ a.ui-button:active,
 }
 
 .main-footer .footer-bottom .expert-link {
-    
+
     font-weight: normal;
     font-size: 13px;
     color: #FFFFFF;
@@ -12460,6 +12488,7 @@ a.ui-button:active,
     display: inline-block;
     vertical-align: middle;
 }
+
 .single-fun-fact-style-one .counta {
     font-size: 28px;
     line-height: 1em;
@@ -12470,22 +12499,24 @@ a.ui-button:active,
     display: inline-block;
     vertical-align: middle;
 }
+
 .single-fun-fact-style-one .countb {
     font-size: 18px;
     line-height: 180%;
     color: #ffda15;
-    font-weight:normal;
+    font-weight: normal;
     font-family: 'Ubuntu', sans-serif;
     position: relative;
     display: inline-block;
     vertical-align: middle;
 }
+
 .single-fun-fact-style-one .countc {
     font-size: 18px;
     line-height: 180%;
     color: #479342;
 
-    font-weight:normal;
+    font-weight: normal;
     font-family: 'Ubuntu', sans-serif;
     position: relative;
     display: inline-block;
@@ -12726,29 +12757,35 @@ a.ui-button:active,
 .my-mfp-slide-bottom.mfp-removing.mfp-bg {
     opacity: 0;
 }
+
 .table02 td.bg01 {
     background: #efefef;
 }
+
 .table02 td {
     border: 1px solid #cacaca;
     text-align: center;
     padding: 5px 10px;
 }
-.table01 td, .table01 th {
+
+.table01 td,
+.table01 th {
     border: 0;
     padding: 0;
-    
+
 }
-.calls
-{
+
+.calls {
     padding: 15px;
-background:  #666666;
-color: #fff;
+    background: #666666;
+    color: #fff;
 }
+
 .table08 {
     border-top: 3px solid #52aeda;
-	width:100%;
+    width: 100%;
 }
+
 .table08 th {
     text-align: center;
     border: 1px solid #cacaca;
@@ -12756,30 +12793,36 @@ color: #fff;
     color: #fff;
     padding: 5px 10px;
 }
+
 .table08 td.bg01 {
     background: #efefef;
     text-align: center;
 }
+
 .table08 td {
     border: 1px solid #cacaca;
     text-align: center;
     padding: 5px 10px;
     width: 20%;
 }
+
 .table04 td.bg01 {
     background: #efefef;
     text-align: center;
     width: 150px;
 }
+
 .table04 td {
     border: 1px solid #cacaca;
     text-align: left;
     padding: 5px 10px;
 }
+
 .table04 {
     border-top: 3px solid #52aeda;
-	width:100%;
+    width: 100%;
 }
+
 .table04 th {
     text-align: center;
     border: 1px solid #cacaca;
@@ -12787,6 +12830,7 @@ color: #fff;
     color: #fff;
     padding: 5px 10px;
 }
+
 .sub_title {
     font-weight: 600;
     text-align: center;
@@ -12795,6 +12839,7 @@ color: #fff;
     text-transform: uppercase;
     margin-bottom: 30px;
 }
+
 .sub_title02 {
     background: url(http://tencon2018.onpcs.gethompy.com/wp-content/uploads/2018/01/main02_topbg.gif) left 12px no-repeat;
     font-weight: 600;
@@ -12803,9 +12848,9 @@ color: #fff;
     margin-bottom: 15px;
 }
 
-.url{
-color:#812767;
-font-weight: bold;
+.url {
+    color: #812767;
+    font-weight: bold;
 }
 
 /* EXTRAS */
@@ -12821,7 +12866,7 @@ font-weight: bold;
     content: "";
 }
 
-ul.dotted li{
+ul.dotted li {
     position: relative;
     display: block;
     font-size: 16px;
@@ -12831,6 +12876,7 @@ ul.dotted li{
     padding-left: 24px;
     margin-bottom: 18px;
 }
+
 ul.dotted li:before {
     position: absolute;
     left: 0;
@@ -12841,22 +12887,25 @@ ul.dotted li:before {
     content: "";
 }
 
-.news-block{
+.news-block {
     background: #f1f1f1;
     padding: 15px;
 }
-.news-block h4{
+
+.news-block h4 {
     color: #f9f9f3;
     font-size: 15px;
     text-transform: uppercase;
 }
-.news-block p{
+
+.news-block p {
     color: #fea164;
 }
 
 .sticky-header ul.navigation {
     background: white;
 }
+
 .logo a.img-responsive {
     padding: 5px;
 }
@@ -12866,28 +12915,31 @@ section.intro-news {
     margin-top: 20px;
 }
 
-@media (min-width: 991px) { 
-    .mobile-header-left{
-        display: none!important;
+@media (min-width: 991px) {
+    .mobile-header-left {
+        display: none !important;
     }
- }
- section.intro-news .news-block {
+}
+
+section.intro-news .news-block {
     margin-bottom: 0;
 }
 
 .intro-news .news-block a {
     color: #3e3a3a;
 }
-ol.numbered li{
+
+ol.numbered li {
     list-style-type: decimal;
 }
+
 /*Program / Tutorial Page*/
 
-.tutorial{
+.tutorial {
     padding-top: 40px;
 }
 
-.tutorial .tutorial-block{
+.tutorial .tutorial-block {
     padding-top: 40px;
     background: #f3f3f3;
     padding-bottom: 40px;
@@ -12896,30 +12948,30 @@ ol.numbered li{
     margin-top: 12px;
 }
 
-.tutorial .tutorial-block .tutorial-block-ls{
+.tutorial .tutorial-block .tutorial-block-ls {
     text-align: center;
     color: #822468;
 }
 
-.tutorial .tutorial-block .tutorial-block-ls h4{
+.tutorial .tutorial-block .tutorial-block-ls h4 {
     text-transform: uppercase;
 }
 
-.tutorial .tutorial-block .tutorial-block-ls h2{
+.tutorial .tutorial-block .tutorial-block-ls h2 {
     font-size: 4em;
     font-weight: 400;
 }
 
-.tutorial .tutorial-block .tutorial-block-cs{
+.tutorial .tutorial-block .tutorial-block-cs {
     padding-right: 50px;
     text-align: justify;
 }
 
-.tutorial .tutorial-block .tutorial-block-cs img{
+.tutorial .tutorial-block .tutorial-block-cs img {
     margin-right: 10px;
 }
 
-.tutorial .tutorial-block .tutorial-block-description{
+.tutorial .tutorial-block .tutorial-block-description {
     margin-top: 20px;
     white-space: normal;
     overflow: hidden;
@@ -12928,7 +12980,7 @@ ol.numbered li{
 
 
 
-.show-more{
+.show-more {
     cursor: pointer;
     text-decoration: underline;
     margin-top: 12px;
@@ -12937,52 +12989,56 @@ ol.numbered li{
     transition: color 0.5s;
 }
 
-.show-more:hover{
+.show-more:hover {
     color: #dfbf14;
 }
 
-.tutorial-block-speakers h4{
+.tutorial-block-speakers h4 {
     margin-left: 15px;
     color: #777;
 }
 
-.tutorial-block-description .blockquote{
+.tutorial-block-description .blockquote {
     font-size: 0.8em;
 }
 
-.tutorial-block-speakers .speaker-name{
+.tutorial-block-speakers .speaker-name {
     font-size: 1.2em;
 }
 
-.highlight{
+.highlight {
     font-weight: 600;
     color: #822468;
 }
 
-.tutorial-block-heading{
+.tutorial-block-heading {
     text-align: left;
     color: #822468;
 }
 
-.duration{
+.duration {
     color: #585855;
 }
+
 .tutorial-block-speakers .col-md-4 p {
     text-align: left;
 }
 
-@media only screen and (max-width: 600px){
-    .tutorial .tutorial-block .tutorial-block-ls h2{
+@media only screen and (max-width: 600px) {
+    .tutorial .tutorial-block .tutorial-block-ls h2 {
         font-size: 2em;
     }
-    .tutorial .tutorial-block .tutorial-block-cs{
+
+    .tutorial .tutorial-block .tutorial-block-cs {
         padding: 20px;
     }
-    .tutorial-block-heading h2{
+
+    .tutorial-block-heading h2 {
         font-size: 1.5em;
         text-align: left;
     }
-    .tutorial-block{
+
+    .tutorial-block {
         margin: 0 2px;
     }
 }
